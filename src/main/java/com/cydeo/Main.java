@@ -14,6 +14,17 @@ public class Main {
 
         printDoubled(items);
 
+
+        FootballPlayer joe = new FootballPlayer("Joe");
+        BaseballPlayer pat = new BaseballPlayer("pat");
+        SoccerPlayer beckham = new SoccerPlayer("beckham");
+
+        Team team = new Team("Liverpool");
+
+        team.addPlayer(joe);
+        team.addPlayer(pat);
+        team.addPlayer(beckham);
+
     }
 
     private static void printDoubled(ArrayList<Integer> items) {
